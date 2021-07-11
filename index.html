@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURAJ VIRTUAL FITNESS</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap');
+
+    
+body {
+    font-family: 'Baloo Bhai 2', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url("img/img1.jpg");
+
+}
+
+.left {
+    display: inline-block;
+   /* border: 2px solid red;*/
+    position: absolute;
+    left: 40px;
+    ;
+    top: 20px;
+
+}
+
+.left img {
+    filter: invert(100%);
+    width: 160;
+    height: 150px;
+}
+
+.left div {
+    font-family: 'Baloo Bhai 2', cursive;
+    line-height: 30px;
+    font-size: 20px;
+
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 40%;
+    margin: 29px auto;
+
+    /*border: 2px solid green;*/
+
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 25px;
+    display: inline-block;
+    /*border: 2px solid yellow;*/
+
+
+}
+
+.bottom {
+    position: absolute;
+    right: 34px;
+    bottom: 20px;
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 5px;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a :hover,.navbar li a.active {
+    color: steelblue;
+    text-decoration: underline;
+}
+
+.btn {
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(red, rgb(5, 206, 21), blue);
+
+}
+
+.container {
+    border: 2px solid white;
+    margin: 120px 450px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+
+
+}
+
+.form-group input  {
+    font-family: 'Baloo Bhai 2', cursive;
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    
+    border: 2px solid black;
+    margin: 11px auto;
+    border-radius: 8px;
+
+}
+
+.container h1 {
+    text-align: center;
+    
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
+
+
+
+
+</style>
+
+
+<body>
+    <header class="header">
+        <!--left box for logo-->
+
+        <div class="left">
+            <img src="img/yoga-3409526.png" alt="logo" height="100" width="100">
+            <div>SOLID FITNESS</div>
+
+
+
+
+        </div>
+        <div class="bottom">
+            <audio controls>
+                <!--<source src="https://gaana.com/song/workout-motivation-music" type="audio/ogg">-->
+                <source src="img/Imagine+Dragons+Believer.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <!--mid box for navbar-->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+
+        </div>
+
+        <!--right box for buttons-->
+
+        <div class="right">
+            <button class="btn">Call Us NOw
+
+            </button><button class="btn">
+                Email us now
+            </button>
+
+
+        </div>
+
+    </header>
+    <div class="container">
+
+        <h1>
+            Join the best GYM of bhubaneswar
+        </h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your NAME">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your AGE">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your GENDER">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your LOCALITY">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your MOBILE NO">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your EMAIL">
+            </div>
+            <button class="btn">Submit</button>
+
+
+
+
+
+        </form>
+
+        
+</body>
+
+</html>
